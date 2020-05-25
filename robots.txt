@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://laladata.co/sitemap.xml
+Host: https://laladata.co
