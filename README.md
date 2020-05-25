@@ -14,4 +14,5 @@ npm run start
 ```
 npm run build:dist
 cp -r dist/* ./
+# commit and push
 ```
