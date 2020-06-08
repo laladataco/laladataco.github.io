@@ -87,9 +87,15 @@ input[type="submit"]:hover {
     justify-content: space-between;
 
     .logo {
-      width: 64px;
-      height: 41px;
-      background: url('../img/logo.svg') no-repeat;
+      font-family: 'Source Code Pro', monospace;
+      font-weight: 400;
+      font-size: 28pt;
+      letter-spacing: -1pt;
+
+      a {
+        text-decoration: none;
+        color: #484848;
+      }
     }
 
     .nav {
@@ -415,4 +421,8 @@ footer {
       line-height: 150%;
     }
   }
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
 }
