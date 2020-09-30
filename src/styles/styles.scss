@@ -328,16 +328,15 @@ footer {
   }
 }
 
+@media (max-width:1024px) {
+  .nav {
+    display: none;
+  }
+}
+
 @media (max-width:899px) {
   #hero {
     padding: 0 50px 150px;
-  }
-
-  .nav {
-
-    a {
-      margin-right: 20px;
-    }
   }
 
   #clients {
